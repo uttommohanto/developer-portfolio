@@ -7,11 +7,16 @@ h1 {
     font-size: 50px;
 }
 
-.orange-color {
-    color: darkorange;
+h2 {
+    font-size: 40px;
 }
 
-section {
+.orange-color {
+    color: darkorange;
+
+}
+
+.flexible-container {
 
     display: flex;
     margin-bottom: 100px;
@@ -47,4 +52,35 @@ section {
     background-position: right;
 
 
+}
+
+.experience-area {
+
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.exprence-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+
+
+
+}
+
+#full-stack-developer {
+    border-left: 7px solid tomato;
+}
+
+#baby-web-developer {
+    border-left: 7px solid blue;
+}
+
+footer {
+    text-align: center;
 }
